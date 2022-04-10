@@ -19,6 +19,7 @@ if ($insertIsOk) {
     $name = 'echec';
 }
 
+
 // $insetIsOk = $pdoState->execute();
 
 // if ($insetIsOk) {
@@ -67,10 +68,12 @@ if ($insertIsOk) {
             <p> </p>
 
 
-            <?php foreach ($names as $name) {
-                echo "<h1>" . $name . "</h1>";
-            }
+            <?php
+            echo $name;
+
             ?>
+
+
 
         </section>
 

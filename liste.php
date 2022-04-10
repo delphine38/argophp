@@ -54,13 +54,18 @@ $names = $pdoStat->fetchAll();
             <div class="member-item">Eleftheria</div>
             <div class="member-item">Gennadios</div>
             <div class="member-item">Lysimachos</div>
+            <div class="member-item"><?php
+                                        foreach ($names as $name)
+                                            echo '<div class="member-item>' . $name["name"] . '</div class="member-item>';
+                                        ?>
+
+            </div>
+
 
             <ul>
-                <?php foreach ($names as $name) {
-                    echo "<li>";
-                    echo $name;
-                    echo "<li>";
-                }
+                <?php
+                foreach ($names as $name)
+                    echo '<p>' . $name["name"] . '</p>';
                 ?>
             </ul>
 

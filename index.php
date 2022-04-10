@@ -11,7 +11,7 @@
 
     <!-- New member form -->
     <h2>Ajouter un(e) Argonaute</h2>
-    <form action="insertion.php" id="list" method="post" class="new-member-form">
+    <form action="liste.php" id="list" method="post" class="new-member-form">
         <label for="name">Nom de l&apos;Argonaute</label>
         <input id="name" name="name" type="text" placeholder="Entre ton nom" />
         <button type="submit">Envoyer</button>
@@ -24,6 +24,7 @@
         <div class="member-item">Gennadios</div>
         <div class="member-item">Lysimachos</div>
     </section>
+
 
 
     <!-- <section>
