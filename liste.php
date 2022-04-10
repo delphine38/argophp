@@ -6,7 +6,7 @@ $objetPdo = new PDO('mysql:host=localhost;dbname=argonautesapi', 'argonautesapi'
 
 
 //requete prépraper
-$pdoStat = $objetPdo->prepare('SELECT * FROM firstname');
+$pdoStat = $objetPdo->prepare('SELECT * FROM firstname ORDER BY name ASC');
 
 //execution de la requete préparée
 // $pdoState->execute();    renvoie true ou false si réussi ou pas
@@ -55,9 +55,15 @@ $names = $pdoStat->fetchAll();
             <div class="member-item">Gennadios</div>
             <div class="member-item">Lysimachos</div>
 
-            <?php foreach ($names as $name) : ?>
-                <p> <?= $name['name'] ?></p>
-            <?php endforeach; ?>
+            <ul>
+                <?php foreach ($names as $name) {
+                    echo "<li>";
+                    echo $name;
+                    echo "<li>";
+                }
+                ?>
+            </ul>
+
         </section>
 
 

@@ -25,11 +25,12 @@
         <div class="member-item">Lysimachos</div>
     </section>
 
-    <section>
+
+    <!-- <section>
         <h1 id="listArgo">
         </h1>
 
-    </section>
+    </section> -->
 </main>
 
 <footer>

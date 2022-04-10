@@ -64,10 +64,14 @@ if ($insertIsOk) {
             <div class="member-item">Eleftheria</div>
             <div class="member-item">Gennadios</div>
             <div class="member-item">Lysimachos</div>
+            <p> </p>
 
-            <?php foreach ($names as $name) : ?>
-                <p> <?= $name['name'] ?></p>
-            <?php endforeach; ?>
+
+            <?php foreach ($names as $name) {
+                echo "<h1>" . $name . "</h1>";
+            }
+            ?>
+
         </section>
 
 
