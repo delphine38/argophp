@@ -28,7 +28,8 @@ if ($insertIsOk) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Argonautes Php</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -49,6 +50,8 @@ if ($insertIsOk) {
             <label for="name">Nom de l&apos;Argonaute</label>
             <input id="name" name="name" type="text" placeholder="Entre ton nom" />
             <button type="submit">Envoyer</button>
+            <img src="images/bravo.png" alt="image bravo" width="10%">
+            <span class="bravo" id="bravo">bravo votre nom à bien été enregistrer en bdd <a href="liste.php">Clique ici pour voir la liste</a></span>
         </form>
 
         <!-- Member list -->
@@ -76,3 +79,17 @@ if ($insertIsOk) {
 </body>
 
 </html>
+
+<script>
+    const bravo = document.getElementsByClassName('bravo');
+
+    const formulaire = {}
+    btn.addEventListener('click', myFontion);
+
+    function myFontion(event) {
+        event.preventDefault();
+        if (formulaire.name = name.value) {
+            bravo[0].getElementsByClassName.visibilty = 'visible';
+        }
+    }
+</script>
