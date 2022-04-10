@@ -19,14 +19,6 @@ if ($insertIsOk) {
     $name = 'echec';
 }
 
-
-// $insetIsOk = $pdoState->execute();
-
-// if ($insetIsOk) {
-//     $message = 'Le contact à été ajouter dans la bdd';
-// } else {
-//     $message = 'echec';
-// }
 ?>
 
 <!DOCTYPE html>
@@ -67,10 +59,8 @@ if ($insertIsOk) {
             <div class="member-item">Lysimachos</div>
             <p> </p>
 
-
             <?php
             echo $name;
-
             ?>
 
 
