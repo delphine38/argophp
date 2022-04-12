@@ -54,7 +54,11 @@ if ($insertIsOk) {
             <img src="images/bravo.png" alt="image bravo" width="10%">
             <span class="bravo" id="bravo">bravo votre nom à bien été enregistrer en bdd <a href="liste.php">Clique ici pour voir la liste</a></span>
         </form>
+        <article class="text-center">
+            <a href="liste.php"><input type="button" value="Voir la liste"></a>
+            <a href="index.php"><input type="button" value="Ré insérer un nom ? "></a>
 
+        </article>
         <!-- Member list -->
         <h2 class="text-center">Membres de l'équipage</h2>
         <section class="member-list text-center">

@@ -55,6 +55,9 @@ $names = $pdoStat->fetchAll();
             <div class="member-item text-center">Eleftheria</div>
             <div class="member-item text-center">Gennadios</div>
             <div class="member-item text-center">Lysimachos</div>
+            <article class="text-center">
+                <a href="index.php"><input class="text-center" type="button" value="Ré insérer un nom ? "></a>
+            </article>
             <div class="member-item text-center">
                 <?php
                 foreach ($names as $name)
@@ -62,7 +65,9 @@ $names = $pdoStat->fetchAll();
                 ?>
 
             </div>
-
+            <article class="text-center">
+                <a href="index.php"><input class="text-center" type="button" value="Ré insérer un nom ? "></a>
+            </article>
         </section>
 
 
