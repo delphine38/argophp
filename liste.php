@@ -2,7 +2,7 @@
 
 //pour lier à la connection
 //préciser l'adresse en local du serveur;nom bdd,'utilisateur','pasword'
-$objetPdo = new PDO('mysql:host=localhost;dbname=argonautesapi', 'argonautesapi', 'argonautesapi');
+include "db.php";
 
 
 //requete prépraper
