@@ -47,13 +47,16 @@ if ($insertIsOk) {
 
         <!-- New member form -->
         <h2 class="text-center m-5">Ajouter un(e) Argonaute</h2>
-        <form action="liste.php" id="list" method="post" class="new-member-form text-center">
+        <!-- <form action="liste.php" id="list" method="post" class="new-member-form text-center">
             <label for="name">Nom de l&apos;Argonaute</label>
             <input id="name" name="name" type="text" placeholder="Entre ton nom" />
             <button type="submit">Envoyer</button>
             <img src="images/bravo.png" alt="image bravo" width="10%">
             <span class="bravo" id="bravo">bravo votre nom à bien été enregistrer en bdd <a href="liste.php">Clique ici pour voir la liste</a></span>
-        </form>
+        </form> -->
+        <article class="text-center">
+            <img src="images/bravo.png" alt="image bravo" width="10%">
+        </article>
         <article class="text-center">
             <a href="liste.php"><input type="button" value="Voir la liste"></a>
             <a href="index.php"><input type="button" value="Ré insérer un nom ? "></a>

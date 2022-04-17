@@ -43,11 +43,9 @@ $names = $pdoStat->fetchAll();
 
         <!-- New member form -->
         <h2 class="text-center m-5">Ajouter un(e) Argonaute</h2>
-        <form action="liste.php" id="list" method="post" class="new-member-form text-center">
-            <label for="name">Nom de l&apos;Argonaute</label>
-            <input id="name" name="name" type="text" placeholder="Entre ton nom" />
-            <button type="submit">Envoyer</button>
-        </form>
+        <article class="text-center">
+            <a href="index.php"><input class="text-center" type="button" value="Ré insérer un nom ? "></a>
+        </article>
 
         <!-- Member list -->
         <h2 class="text-center m-5">Membres de l'équipage</h2>
